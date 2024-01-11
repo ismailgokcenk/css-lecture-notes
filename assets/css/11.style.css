@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+a:link{
+    color: orange;
+}
+a:visited{
+    color: crimson;
+}
+a.emojiLink:hover{
+    background-color: crimson;
+    color: aqua;
+    text-decoration: overline;
+}
+.title:hover{
+    cursor: pointer;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+a.link4:active{
+    color: fuchsia;
+}
