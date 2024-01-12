@@ -13,3 +13,11 @@ p.pAbout .spanEl{
     font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a.link{
+    text-decoration: none;
+    color: orange;
+}
+a.link:hover{
+    background-color: aqua;
+    color: crimson;
+}
