@@ -1,37 +1,43 @@
-div.container {
+div.container{
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items:flex-start;
   height: 100vh;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap:1rem;
+  flex-wrap: wrap-reverse;
+  align-content: flex-end;
+
 }
-.container > div {
+.container > div{
   width: 100px;
   text-align: center;
   padding: 20px;
-  height: 50vh;
+  height: 15vh;
 }
-div.container div:nth-child(1) {
+div.container div:nth-child(1){
   background-color: blueviolet;
   flex: 0 0 250px;
 }
-div.container div:nth-child(2) {
+div.container div:nth-child(2){
   background-color: hotpink;
   flex: 0 0 250px;
   margin-right: 40px;
 }
-div.container div:nth-child(3) {
+div.container div:nth-child(3){
   background-color: gold;
   flex: 1 3 250px;
+  
 }
-div.container div:nth-child(4) {
+div.container div:nth-child(4){
   background-color: red;
   flex: 0 0 250px;
+  
 }
-div.container div:nth-child(5) {
+div.container div:nth-child(5){
   background-color: green;
-  flex: 0 0 250px;
+  flex:0 0 250px;
   margin-right: 50px;
+  
 }
