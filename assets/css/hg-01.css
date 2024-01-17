@@ -1,18 +1,14 @@
-.alt-menu {
-  width:10%;
-  position:relative;
-  float:left;
+div.parent{
+  display: none;
+  flex-direction: column;
 }
 
-#acilirmenu{
-  display :block; /* Chech boxumuzu buradan görünmez kılıyoruz. */
-}
-#menum { display: none; position:absolute; width:100%;	}
-#acilirmenu:checked + #menum { display:block;	}
 
-/* */
-#acilirmenu2{
-  display: none; /* Chech boxumuzu buradan görünmez kılıyoruz. */
+
+ .fa-bars:hover + .parent {
+  display:flex;
+  
 }
-#menum2 { display:none;	}
-#acilirmenu2:checked + #menum2 { display:block;	}
+
+
+
