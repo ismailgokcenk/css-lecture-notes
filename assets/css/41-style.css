@@ -1,0 +1,47 @@
+div.box{
+    width: 150px;
+    height: 150px;
+    margin: 3rem;
+}
+.box-1{
+    background-color: blue;
+    transition: background-color 3s;
+}
+.box-1:hover{
+    background-color: rgb(225, 0, 255);
+    cursor: pointer;
+}
+.btn{
+    margin: 4rem;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    border: 5px black solid;
+    cursor: pointer;
+    background-color: orangered;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.btn:hover{
+    transform: translateX(250%) rotate(180deg) scale(1.4);
+}
+.box-2{
+    background-color: green;
+    transition: background-color 1s,transform 1s;
+}
+.box-2:active{
+    transform: rotate(360deg);
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.box-3{
+    background-color: rgb(128, 0, 124);
+    transition:all 2s ease-in-out;
+}
+.box-3:hover{
+    transform: scale(1.5) rotate(360deg);
+    background-color: firebrick;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5rem;
+}
