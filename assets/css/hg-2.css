@@ -1,0 +1,17 @@
+tr.baslık {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.81);
+}
+tr.total {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.81);
+}
+a {
+  color: black;
+}
+a:hover {
+  color: rgb(62, 249, 0);
+}
+a.delete:hover {
+  color: red;
+}
